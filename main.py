@@ -70,6 +70,8 @@ def draw_histogram(name, data):
         labels = list(data.keys())
         values = list(data.values())
 
+        plt.clf()
+
         # создание гистограммы
         plt.bar(labels, values)
 
