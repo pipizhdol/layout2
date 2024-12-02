@@ -55,6 +55,9 @@ def draw_histogram(paths, data):
 
 
 def draw_histogram_fines(data):
+    '''
+    Рисует гистограммы штрафов
+    '''
     color = ('red', 'blue', 'grey', 'yellow')
     labels = ('йцукен', 'diktor', 'zubachew', 'skoropis')
     keys = labels
@@ -79,6 +82,9 @@ def draw_histogram_fines(data):
 
 
 def draw_histogram_combo(data):
+    '''
+    Рисует гистограммы удобных комбинаций
+    '''
     color = ('red', 'blue', 'grey', 'yellow')
     labels = ('йцукен', 'diktor', 'zubachew', 'skoropis')
     keys = labels
